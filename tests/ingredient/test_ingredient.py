@@ -22,4 +22,4 @@ def test_ingredient():
     assert sushi == s2
     assert sushi != temaki
 
-    assert sushi.__repr__() == "Ingredient(sushi)"
+    assert sushi.__repr__() == "Ingredient('sushi')"
